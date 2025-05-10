@@ -1,0 +1,218 @@
+
+<!-- Contact form data sheet =   https://docs.google.com/spreadsheets/d/1N6LPNC3a4cEq4QQ-HrrSQC3FHlvz3kUDu2kDjnrHe-8/edit#gid=0 -->
+
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width", initial-scale="1.0">
+ <title>My Portfolio </title>
+ <link rel="shortcut icon" href="/public/images/Mien.jpg" type="image/x-icon">
+ <script src="https://kit.fontawesome.com/f2f5e930d6.js" crossorigin="anonymous"></script>
+</head>
+<link rel="stylesheet" href="public/css/styles.css">
+<body>
+ <div class="header" id="home">
+    <div class="container">
+        <nav>
+            <img src=".//public/images/logo.jpg" alt="image" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <!-- <li><a href="#">Project</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="home-text">
+        <h1>Hi, Myself <span>Ashutosh Dwivedi</span><br>Diploma holder and Third year student at AITR INDORE</h1>
+        <h3>I am <span> </span></h3>
+    </div>
+</div>
+
+
+<!-- ==============About================ -->
+
+
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src=".//public/images/Mien.jpg" alt="Ashutosh">
+            </div>
+            <div class="col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hii there, it's <span class="name" >Ashutosh Dwivedi</span> .As a Third-year B.Tech student specializing in Computer Science and Engineering at Acropolis Institute of Technology and Research, Indore
+                     (M.P), I am passionate about technology with a particular interest in web coding. I have a solid foundation in data structures and algorithms and enjoy tackling algorithmic challenges. I am eager to contribute to a dynamic organization where I can apply and expand my skills, working on real-world projects that drive growth and innovation.
+
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>  
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming language</span><br> C, Java, Javascript</li>
+                        <li><span>Database</span><br>MySQL</li>
+                        <li><span>Development</span><br>HTML, CSS</li>
+                        <li><span>Development Ecosystem</span><br>GitHub, VS Code</li>
+                        <li><span>Courseworks</span><br>Data Structures, Computer Networks, Algorithms, OOPS, DBMS, Machine Learning <li>
+                    </ul>
+                </div> 
+                <!-- <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>C++</span></li>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>JS</span></li>
+                    </ul>
+                </div> -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2022 ( Diploma )</span><br> Shri Vaishnav Polytechnic Institute, Indore<br><span class="b"></span>
+                        <li><span>2023-Present ( B.Tech )</span><br> Acropolis Institute of Technology and Research, Indore<br><span class="b">
+                        <li><span>2019  ( Class XII )</span><br>D.A.V. Public School, Amlori, M.P.<br><span class="b">Percentage-</span> 72.20</li>
+                        <li><span>2017  ( Class X )</span><br>D.A.V. Public School, Amlori, M.P.<br><span class="b">CGPA- </span>7.8</li>
+                    </ul>
+                </div>                                
+            </div>
+        </div>
+    </div> 
+ </div>
+
+
+ <!-- =======================services================ -->
+
+
+ <!-- =========================Portfolio=============== -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                 <img src=".//public/images/path.png"> <!-- //poster section of canva -->
+                 <div class="layer">
+                    <h3>Path_Visualisor</h3>
+                    <p>Dynamic Path Finder and Visualisor showing algorithm implementation</p>
+                        <a href="https://github.com/Prateekq1/Path_Visualisor" target="_blank"><i class="fa-solid fa-square-up-right"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src=".//public/images/blog.jpg">
+                <div class="layer">
+                    <h3>Blog_webpage</h3>
+                    <p>Demo of a blog website created using HTML and CSS</p>
+                        <a href="https://github.com/Prateekq1/Blog-website" target="_blank"><i class="fa-solid fa-square-up-right"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src=".//public/images/21.png">
+                <div class="layer">
+                    <h3>Techstore:an e-commerce website</h3>
+                    <p>Responsive full Stack web application to buy products conveniently.</p>
+                    <a href="https://github.com/Prateekq1/Techstore-e-commerce"><i class="fa-solid fa-square-up-right"></i></a>
+                 </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-- ===============Contact=============== -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-at"></i>ashutoshdwivedi230008@acropolis.in</p>
+                <p><i class="fa-solid fa-house-chimney"></i>Singrauli, (M.P.), 486887</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ashutoshdwivedi1103/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/aasshu.touches/" target="_blank "><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://github.com/Ashutosh-ad" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="./public/images/AshuoshIT.pdf" download class="btn btn-2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" autocomplete="off" required>
+                    <input type="email" name="Email" placeholder="Your Email" autocomplete="off" required>
+                    <textarea name="Message" rows="9" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made with 💛 in Indore @2025</p>
+    </div>
+</div>
+
+
+ <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+ </script>
+ 
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbylcwPr4sQ52nM583LcSA65J8kzNrCC06FmQTYwT6h5ywjINMAk-WgT14pnHbhwlZlA-g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+    //   .addMetaTag('viewport', 'width=device-width, initial-scale=1');
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <!-- =============== menu script============= -->
+
+  <script>
+
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu(){
+        sidemeu.style.right = "-200px";
+      }
+
+  </script>
+
+
+
+</body>
+</html>
